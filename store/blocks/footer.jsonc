@@ -1,7 +1,11 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop", 
+      "footer-layout.mobile"
+    ]
   },
+
   "footer-layout.desktop": { 
     "children": [
       "flex-layout.row#footer"
@@ -13,14 +17,138 @@
     ]
   },
   "flex-layout.row#footer": { 
+    "props": {
+      "blockClass": "footer",
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "paddingTop": 5,
+      "paddingBottom": 0,
+      "colSizing": "equal",
+      "colGap": 10
+    },
     "children": [
-      "image"
+      "flex-layout.col#1",
+      "flex-layout.col#2",
+      "flex-layout.col#3",
+      "flex-layout.col#4"
     ]
   },
-  "image": {
+
+  "flex-layout.col#1": {
+    "props":{
+      "horizontalAlign": "center"
+    },
+      "children":[
+          "image#footer1",
+          "rich-text#footer1"
+      ]
+  },
+
+  "flex-layout.col#2": {
+    "props":{
+      "horizontalAlign": "center",
+      "verticalAlign":"center"
+    },
+    "children":[
+          "image#footer2",
+          "rich-text#footer2"
+      ]
+  },
+
+  "flex-layout.col#3": {
+    "props":{
+      "horizontalAlign": "center"
+    },
+    "children":[
+          "image#footer3",
+          "rich-text#footer3"
+      ]
+  },
+
+  "flex-layout.col#4": {
+    "props":{
+      "horizontalAlign": "center"
+    },
+    "children":[
+          "image#footer4",
+          "rich-text#footer4"
+      ]
+  },
+
+  "image#footer1":{
+      "props":{
+          "src": "assets/icons/user.svg",
+          "link": "/"
+      }
+  },
+
+  "image#footer2":{
+      "props":{
+          "src": "assets/icons/trophy.svg",
+          "link": "/"
+      }
+  },
+
+  "image#footer3":{
+      "props":{
+          "src": "assets/icons/cart.svg",
+          "link": "/shop"
+      }
+  },
+
+  "image#footer4":{
+      "props":{
+          "src": "assets/icons/whatsapp.svg",
+          "link": "/"
+      }
+  },
+
+  "rich-text#footer1": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "text": "ENTRAR",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-7",
+      "blockClass": "icontext"
+    }
+  },
+
+  "rich-text#footer2": {
+    "props": {
+      "text": "DESAFIO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-7",
+      "blockClass": "icontext"
+    }
+  },
+  
+  "rich-text#footer3": {
+    "props": {
+      "text": "LOJA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-7",
+      "blockClass": "icontext"
+    }
+  },
+  
+  "rich-text#footer4": {
+    "props": {
+      "text": "SUPORTE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-7",
+      "blockClass": "icontext"
     }
   }
+  
 }

@@ -46,10 +46,10 @@
   },
   "logo": {
     "props": {
-      "title": "Logo",
+      "title": "UpMedal",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "assets/img/upmedal.png",
+      "width": "150px'"
     }
   },
   "header-layout.mobile": {
