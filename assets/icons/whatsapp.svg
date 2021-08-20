@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>whatsapp-svg</title>
+	<defs>
+		<image  width="18" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAAXNSR0IB2cksfwAAANhQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////tKBu8QAAAEh0Uk5TAEZ0p+LtyIBHlf/rxJmXv+SyQNx2WNTGJysqc0kzzHspYlCPsNhquuWdEOOT36K3rBs3cW8s6iBVYByoCLNMaGMwL5DP7xUj7mncPwAAANNJREFUeJxFj+dawkAQRW8KhFwIgSBRIjUUQRQLVaVZwPd/I2YhG+bPzHf27J1dQJVhWnYm6+SQlst8wSv6JZaDhFR4cxmqIS/slndar4WMpN2zjihKWVmS6aHBpvaqIrTYRoeMNbO76PWBmBxo9JDFcAQ8jv30QU8ZPE+km3Q0KtqYVNTwwte3d38qi30LM84Vc8gFlVsysUzuxE2SK3zQEJNJShB8ivAFrLm5/r9Odb7lbm9NvxVoe8z/SP+ViD8ePGfUZxIbuqsj/t0xh72WcSYnZB0P+1jv4qgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer" href="#img1" x="3" y="3" />
+</svg>

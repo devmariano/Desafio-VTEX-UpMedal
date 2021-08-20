@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>trophy-svg</title>
+	<defs>
+		<image  width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAAXNSR0IB2cksfwAAADNQTFRF////////////////////////////////////////////////////////////////////5RDoRwAAABF0Uk5TAND/z/AfwE9wvxCfD2BAsN86YEU7AAAAe0lEQVR4nI3QjQrDIAwE4MvVNK2rre//tNP+abZRdiDEzyAhQInwzoAr7ILW5Z4H8BuJCj3u538MVI/KgJHm0Thi4uxx5oQY+CKXw5TlEiKQ6mR2oNU61WrdyLy3Lpnc1usrYTZVyxS0xHNPEtEnFZaEz7S5ntFv8Be+ASKhAqRfbBfeAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer" href="#img1" x="2" y="2" />
+</svg>

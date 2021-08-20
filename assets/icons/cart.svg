@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>cart_black-svg</title>
+	<defs>
+		<image  width="20" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAMAAAAYGszCAAAAAXNSR0IB2cksfwAAAFRQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////lDHgPQAAABx0Uk5T/48AQHCwECCgzzDg0F+fgGAP7/AvwJC/H29/UA9KEK0AAABrSURBVHicZc5ZDoMwDEXR20chUObSgWH/+4SQBES4X/aRLBngoShsSYzSk/SOGZgbKudaYfEVYWlRFfV529Du2FEc1r8xO2rgE7DmK4c/moB/Oo8GemcjQ+ZRKZMbZnIFXM6HkgO3r3zVtqymZgNfhIqfHAAAAABJRU5ErkJggg=="/>
+		<image  width="3" height="3" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADAQMAAABs5if8AAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5TgP9gErr+AAAADklEQVR4nGNwYHjA4AAABCYBYQqxMZgAAAAASUVORK5CYII="/>
+		<image  width="3" height="3" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADAQMAAABs5if8AAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5TgP9gErr+AAAADklEQVR4nGNwYHjA4AAABCYBYQqxMZgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer" href="#img1" x="2" y="3" />
+	<use id="Layer" href="#img2" x="9" y="18" />
+	<use id="Layer" href="#img3" x="16" y="18" />
+</svg>
