@@ -1,16 +1,15 @@
 {
   "store.home": { 
     "blocks": [
-      "tab-layout"
+      "tab-layout",
+      "rich-text#blank"
     ]
   },
 
   "tab-layout": {
     "children": [
       "tab-list",
-      "slider-layout#home",
-      "flex-layout.row#combochoice",
-      "tab-content"
+      "slider-layout#home"
     ]
   },
 
@@ -22,12 +21,7 @@
     ]
   },
 
-  "tab-content": {
-
-    "props": {
-      "blockClass": "tabProducts"
-    }
-  },
+  
 
   "tab-list.item#1": {
     "props": {
@@ -55,65 +49,11 @@
   },
 
 
-
-
-  "flex-layout.row#combochoice": {
+  
+  "rich-text#blank": {
     "props":{
-      "horizontalAlign": "center",
-      "colSizing": "equal",
-      "preserveLayoutOnMobile": true,
-      "preventVerticalStretch": true,
-      "blockClass": "items"
-    },
-    "children": [
-      "flex-layout.col#combochoice1",
-      "flex-layout.col#combochoice2"    
-    ]
-  },
-
-  "flex-layout.col#combochoice1": {
-    "props": {
-      "preventVerticalStretch": true,
-      "verticalAlign": "middle",
-      "horizontalAlign": "center",
-      "colSizing": "equal"
-    },
-
-    "children": [
-      "rich-text#combochoice1"
-    ]
-  },
-
-  "flex-layout.col#combochoice2": {
-    "props": {
-      "preventVerticalStretch": true,
-      "verticalAlign": "middle",
-      "horizontalAlign": "center",
-      "colSizing": "equal"
-    },
-
-    "children": [
-      "rich-text#combochoice2"
-    ]
-  },
-
-  "rich-text#combochoice1": {
-    "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "você está vendo provas de",
-      "textColor": "c-text-emphasis",
-      "font": "t-heading-5"
-    }
-  },
-
-  "rich-text#combochoice2": {
-    "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "BOX Corrida",
-      "textColor": "c-emphasis",
-      "font": "t-heading-5"
+      "text": ".",
+      "textColor": "c-base"
     }
   }
 }

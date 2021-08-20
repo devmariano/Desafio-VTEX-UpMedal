@@ -79,13 +79,14 @@
       ]
   },
 
+
   "image#footer1":{
       "props":{
           "src": "assets/icons/user.svg",
-          "link": "/"
+          "link": "/login"
       }
   },
-
+  
   "image#footer2":{
       "props":{
           "src": "assets/icons/trophy.svg",
@@ -109,12 +110,9 @@
 
   "rich-text#footer1": {
     "props": {
-      "text": "ENTRAR",
+      "text": "[ENTRAR](/login)",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-7",
-      "blockClass": "icontext"
+      "textPosition": "CENTER"
     }
   },
 
@@ -142,7 +140,7 @@
   
   "rich-text#footer4": {
     "props": {
-      "text": "SUPORTE",
+      "text": "[SUPORTE](https://api.whatsapp.com/send?phone=5511964335064&text=Converse%20com%20o%20suporte)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "textColor": "c-on-emphasis",
