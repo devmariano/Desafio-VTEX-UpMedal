@@ -2,18 +2,17 @@
 
 Repositorio de Alexandre Mariano partir do minimum boiler template padrão da Vtex IO
 
-Foram utilizados os seguintes recursos:
-
 * Markdown + css para formatação
 
 * Flex Layout para criar as cores em css -
 https://vtex.io/docs/components/all/vtex.flex-layout@0.17.0/
 
-* Prioridade das páginas criada nos arquivos.jsonc colocando comentários
-dos blocos criados
+* Prioridade das blocos criados nos arquivos.jsonc
 
 * Slider layout para mostrar os produtos em destaque -
 https://vtex.io/docs/app/vtex.slider-layout
+
+* Botão de inetgração com whatsapp
 
 
 # Minimum Boilerplate Theme
